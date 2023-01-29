@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="tictactoe.exe" version="1.0.0.0" publicKeyToken="3d104b73e371fe83" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="tictactoe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="tictactoe.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tictactoe.exe" size="17920">
+      <assemblyIdentity name="tictactoe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qH9Gdu6w+NEemMKU4Wltr52kEpBoAVmzZw3ZtMjF5KI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="tictactoe.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-7DBO297T\himanshu" issuerKeyHash="630828b291f8ab2f8c3e7a9ef79e01dbc2a8ae25" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GZc/bLTLWFWVdqDLZk3zVQqIl9r4Gst/GEEuQTT3p1Y=</DigestValue></Reference></SignedInfo><SignatureValue>SzDHjoPlW6EYMOiAC86TYxa5OhngYNBPQBeG6va6imY0/Ksu9hlyAXZlBjLHJZoxFTarJmFTTBc5HWUOwiVdcSPcc1QOIkjGsK5XMa7L+ZzNq/R8oG49RfdRb6v4gRhZsjC+YMINO+h4iNN/HCOsnSjoqaIxYOhF9Jq5e/Ro48Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>su+MbYbXr1GiSq1hmBjhOLg/L4neKSci8rcG/aFU+29ESs1UJfcEdseeUJbQt0R/DYnh1W/UpF+7TTXlBj+i5DYkig/yPMqjsjwEnBq6SjBiDqnHtoyQGMTPM/ZYincdDdE1lDMJ9I9f+a9o3jK1Yy5hQtHJ205xLrzaKVmCgck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="56a7f734412e41187fcb1af8da97880a55f34d66cba076955558cbb46c3f9719" Description="" Url=""><as:assemblyIdentity name="tictactoe.exe" version="1.0.0.0" publicKeyToken="3d104b73e371fe83" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-7DBO297T\himanshu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CVq1EhXoqI04byUp87PvMeAdWXMJeFU02l9BGlvWOqg=</DigestValue></Reference></SignedInfo><SignatureValue>i1xDgWIQWVPqp7yN0UUUCOka0NZS4ZTYmWY+YdFl5b9KTtYgQwTh1FEX+nmxTKJrpnWZlUQ1zuyO1Kb8tq3vutzFQfUYaFhy3hhTSjcwaFliVwz6u3qGCUPzDDYkl+fnMbX/Fgsavya8fTTaRk2XizAIAgugiECUVtlHgH2hK8g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>su+MbYbXr1GiSq1hmBjhOLg/L4neKSci8rcG/aFU+29ESs1UJfcEdseeUJbQt0R/DYnh1W/UpF+7TTXlBj+i5DYkig/yPMqjsjwEnBq6SjBiDqnHtoyQGMTPM/ZYincdDdE1lDMJ9I9f+a9o3jK1Yy5hQtHJ205xLrzaKVmCgck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQKtJ17h66V79A/dNYDkiEtTANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQA3AEQAQgBPADIAOQA3AFQAXABoAGkAbQBhAG4AcwBoAHUwHhcNMjMwMTIyMDcwNTQ2WhcNMjQwMTIyMTMwNTQ2WjA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQA3AEQAQgBPADIAOQA3AFQAXABoAGkAbQBhAG4AcwBoAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALLvjG2G169RokqtYZgY4Ti4Py+J3iknIvK3Bv2hVPtvRErNVCX3BHbHnlCW0LdEfw2J4dVv1KRfu0015QY/ouQ2JIoP8jzKo7I8BJwaukowYg6px7aMkBjEzzP2WIp3HQ3RNZQzCfSPX/mvaN4ytWMuYULRydtOcS682ilZgoHJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEApzqzmaKXKgzv8PJPI3Hsf4F6ibaFZEf7aoFfB8NFHQIZfv3pXBpczcgVdVGjZlSb1jQtnO56rm5vx5udhAygzqcSYxEZalC2zbQ+yvthLXqgB6r7eE0X3yHrZjjxdg2azrPz7O6gu39VhZo1cIZzfgS7oLM6swW0/p3JZNqW3Kc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
